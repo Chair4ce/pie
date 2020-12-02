@@ -1,0 +1,51 @@
+<GETS_RFI_Query_Results xmlns="GETS" xmlns:getsrfi="foo" xmlns:gets="foo">
+  <RFIList>
+    <getsrfi:RequestForInformation id="SDT-0321">
+      <getsrfi:Request id="SDT-0321">
+        <getsrfi:requestText>A new and improved description</getsrfi:requestText>
+        <getsrfi:justification>
+          This is a justification.
+        </getsrfi:justification>
+        <gets:url>url</gets:url>
+        <getsrfi:primaryOrganization>DGS-1</getsrfi:primaryOrganization>
+        <gets:lastUpdate>2019-10-16T01:21:27Z</gets:lastUpdate>
+        <getsrfi:RequestingPOC>
+          <gets:unit>1 FW</gets:unit>
+        </getsrfi:RequestingPOC>
+        <gets:CountryCodeList>
+          <gets:iso1366trigraph>USA</gets:iso1366trigraph>
+        </gets:CountryCodeList>
+      </getsrfi:Request>
+      <getsrfi:ResponseList>
+        <getsrfi:Response id="SDT-0321" orgid="DGS-1">
+          <gets:producerOrganizationID>DGS-1</gets:producerOrganizationID>
+          <getsrfi:responseStatus>OPEN</getsrfi:responseStatus>
+        </getsrfi:Response>
+      </getsrfi:ResponseList>
+    </getsrfi:RequestForInformation>
+    <getsrfi:RequestForInformation id="SDT-0322">
+      <getsrfi:Request id="SDT-0322">
+        <getsrfi:requestText>A new and improved description</getsrfi:requestText>
+        <getsrfi:justification>
+          This is a justification.
+        </getsrfi:justification>
+        <gets:url>url</gets:url>
+        <getsrfi:primaryOrganization>DGS-1</getsrfi:primaryOrganization>
+        <gets:lastUpdate>2019-10-30T14:21:28Z</gets:lastUpdate>
+        <getsrfi:RequestingPOC>
+          <gets:unit>1 FW</gets:unit>
+        </getsrfi:RequestingPOC>
+        <gets:CountryCodeList>
+          <gets:iso1366trigraph>CAN</gets:iso1366trigraph>
+        </gets:CountryCodeList>
+        <gets:ltiov>2019-11-05T14:21:21Z</gets:ltiov>
+      </getsrfi:Request>
+      <getsrfi:ResponseList>
+        <getsrfi:Response id="SDT-0322" orgid="DGS-1">
+          <gets:producerOrganizationID>DGS-1</gets:producerOrganizationID>
+          <getsrfi:responseStatus>CLOSED</getsrfi:responseStatus>
+        </getsrfi:Response>
+      </getsrfi:ResponseList>
+    </getsrfi:RequestForInformation>
+  </RFIList>
+</GETS_RFI_Query_Results>

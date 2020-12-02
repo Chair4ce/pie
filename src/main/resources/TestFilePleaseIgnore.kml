@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>TEST KML.kml</name>
+	<Style id="sn_square">
+		<IconStyle>
+			<color>ff8c8c8c</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/square.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/square.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_donut0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_donut</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_donut</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_square">
+		<IconStyle>
+			<color>ff8c8c8c</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/square.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_donut">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/donut.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_donut3">
+		<IconStyle>
+			<color>ff00ff00</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/donut.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_donut0">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/donut.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_donut2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_donut0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_donut1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_donut">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_donut2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_donut2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_donut2">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/donut.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_donut2">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/donut.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_donut0">
+		<IconStyle>
+			<color>ff00ff00</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/donut.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_donut1">
+		<IconStyle>
+			<color>ff00ff00</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/donut.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_donut3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_donut3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_donut0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_donut">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/donut.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_donut1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_donut1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_donut3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/square.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_donut3">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/donut.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_donut1">
+		<IconStyle>
+			<color>ff00ff00</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/donut.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_square">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_square</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_square</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>TEST KML</name>
+		<open>1</open>
+		<Folder>
+			<name>WAAS Coverage</name>
+			<open>1</open>
+			<Placemark>
+				<name>26MAY20_27MAY20 WAAS Coverage</name>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-76.70060009939999,37.294457046231,0 -76.6805550424689,37.29036029771331,0 -76.66461189119013,37.27988927366321,0 -76.66021794041258,37.25899298358077,0 -76.66595593099123,37.24118955736456,0 -76.67638521037394,37.23611255536062,0 -76.68736293518873,37.23261288106131,0 -76.71035680240335,37.23503336183944,0 -76.72567258859431,37.24130077149555,0 -76.73445735396353,37.25466278880575,0 -76.73908836803857,37.27459849611395,0 -76.72756178907994,37.29031912091259,0 -76.70060009939999,37.294457046231,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>COI</name>
+			<open>1</open>
+			<Placemark>
+				<name>OPR20-001/TER-2077</name>
+				<LookAt>
+					<longitude>-76.70178191331044</longitude>
+					<latitude>37.27119704176472</latitude>
+					<altitude>0</altitude>
+					<heading>7.472201709871507</heading>
+					<tilt>0</tilt>
+					<range>506.9012657968607</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-76.7026751044484,37.2713152211703,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>OPR20-002</name>
+				<LookAt>
+					<longitude>-76.69677789201381</longitude>
+					<latitude>37.27070912308545</latitude>
+					<altitude>0</altitude>
+					<heading>7.475232018729377</heading>
+					<tilt>0</tilt>
+					<range>1038.878364072134</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-76.69330414059273,37.27161533017205,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>SCOI</name>
+			<open>1</open>
+			<Placemark>
+				<name>OPR20-S1121</name>
+				<LookAt>
+					<longitude>-76.6999431582736</longitude>
+					<latitude>37.27068147508053</latitude>
+					<altitude>0</altitude>
+					<heading>7.473361921606023</heading>
+					<tilt>19.24242328758281</tilt>
+					<range>685.8655306078174</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_square</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-76.70027691214744,37.27144555103823,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>OPR20-S1122</name>
+				<LookAt>
+					<longitude>-76.69675842584722</longitude>
+					<latitude>37.2704937953726</latitude>
+					<altitude>0</altitude>
+					<heading>7.475290507921752</heading>
+					<tilt>19.24242408242833</tilt>
+					<range>686.1340561301691</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_square</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-76.69778689808601,37.26900049799806,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>OPR20-S1123</name>
+				<LookAt>
+					<longitude>-76.69649424977051</longitude>
+					<latitude>37.27076662702966</latitude>
+					<altitude>0</altitude>
+					<heading>7.475450490619511</heading>
+					<tilt>19.24242512190375</tilt>
+					<range>686.4849589656825</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_square</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-76.69668226479979,37.27406899022009,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>OPR20-S1124</name>
+				<LookAt>
+					<longitude>-76.69611475213519</longitude>
+					<latitude>37.27263802773201</latitude>
+					<altitude>0</altitude>
+					<heading>-1.804943029607629</heading>
+					<tilt>13.16112150031652</tilt>
+					<range>994.1123397583693</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_square</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-76.69428235700248,37.27388438242047,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Tracks</name>
+			<open>1</open>
+			<Folder>
+				<name>26MAY20</name>
+				<open>1</open>
+				<Folder>
+					<name>COI1(OPR20-001)</name>
+					<open>1</open>
+					<Folder>
+						<name>001-001</name>
+						<Placemark>
+							<name>001-001</name>
+							<description>001-001	TRACK
+
+26MAY20
+
+START
+1111Z - 1 PERS exited the W entrance of OPR20-S1123 and walked W.
+
+END
+1121Z - 1 PERS entered the NE entrance of BLDG 1 within OPR20-001/TER-2077.</description>
+							<styleUrl>#msn_ylw-pushpin0</styleUrl>
+							<LineString>
+								<tessellate>1</tessellate>
+								<coordinates>
+									-76.69669590253469,37.27408970434668,0 -76.69837027873842,37.27407422898587,0 -76.70014229717279,37.27412960869093,0 -76.70020659348344,37.27374699304638,0 -76.70187628957683,37.27361840499,0 -76.70177304190301,37.27248030035314,0 -76.70173069183724,37.27132654369998,0 -76.70265350334958,37.27117036869345,0 -76.70268563030129,37.27131556866714,0 
+								</coordinates>
+							</LineString>
+						</Placemark>
+						<Placemark>
+							<name>START</name>
+							<LookAt>
+								<longitude>-76.69790386215703</longitude>
+								<latitude>37.27346687840267</latitude>
+								<altitude>0</altitude>
+								<heading>-4.995656768523273</heading>
+								<tilt>18.21658073028898</tilt>
+								<range>1162.007106604842</range>
+								<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+							</LookAt>
+							<styleUrl>#msn_donut1</styleUrl>
+							<Point>
+								<gx:drawOrder>1</gx:drawOrder>
+								<coordinates>-76.69664045218934,37.27406532283943,0</coordinates>
+							</Point>
+						</Placemark>
+						<Placemark>
+							<name>END</name>
+							<LookAt>
+								<longitude>-76.69978892327053</longitude>
+								<latitude>37.2723839662374</latitude>
+								<altitude>0</altitude>
+								<heading>-4.901334606034569</heading>
+								<tilt>14.16543881504618</tilt>
+								<range>1154.340072141379</range>
+								<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+							</LookAt>
+							<styleUrl>#msn_donut0</styleUrl>
+							<Point>
+								<gx:drawOrder>1</gx:drawOrder>
+								<coordinates>-76.70267957998801,37.27131544433873,0</coordinates>
+							</Point>
+						</Placemark>
+					</Folder>
+				</Folder>
+			</Folder>
+			<Folder>
+				<name>27MAY20</name>
+				<open>1</open>
+				<Folder>
+					<name>COI2(OPR20-002)</name>
+					<open>1</open>
+					<Folder>
+						<name>002-001</name>
+						<Placemark>
+							<name>002-001</name>
+							<description>002-001 TRACK
+
+27MAY20
+
+START
+0111Z - 1 PERS exited the S entrance of OPR20-S1124 and walked SW.
+
+STOP 1
+0121Z - 1 PERS entered the E entrance of OPR20-S1121.
+0141Z - 1 PERS exited the S entrance of OPR20-S1121 and walked E.
+
+END
+0200Z - 1 PERS entered the W entrance of OPR20-002.</description>
+							<styleUrl>#msn_ylw-pushpin0</styleUrl>
+							<LineString>
+								<tessellate>1</tessellate>
+								<coordinates>
+									-76.69428571872216,37.27388458370421,0 -76.6942456852277,37.27348839792705,0 -76.69513251628098,37.27341193904823,0 -76.69506929730358,37.27298210870489,0 -76.69608104675983,37.2729115040649,0 -76.69606777253233,37.27245073845391,0 -76.6967773866493,37.27239505883732,0 -76.6967025126327,37.27143167858576,0 -76.69981117393415,37.27131564100341,0 -76.69993661691878,37.27138346042332,0 -76.7002365766822,37.27145701364179,0 -76.70021500196621,37.27119536449644,0 -76.69667185736657,37.27133365154683,0 -76.69385531841284,37.27149642379748,0 -76.69360736593075,37.27148212527726,0 
+								</coordinates>
+							</LineString>
+						</Placemark>
+						<Placemark>
+							<name>START</name>
+							<Camera>
+								<longitude>-76.69441870305673</longitude>
+								<latitude>37.27397775513619</latitude>
+								<altitude>187.2313908308075</altitude>
+								<heading>84.26226990689625</heading>
+								<tilt>0.2651221830404811</tilt>
+								<roll>89.89431492065786</roll>
+								<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+							</Camera>
+							<styleUrl>#msn_donut2</styleUrl>
+							<Point>
+								<gx:drawOrder>1</gx:drawOrder>
+								<coordinates>-76.69428119764237,37.27387943142478,0</coordinates>
+							</Point>
+						</Placemark>
+						<Placemark>
+							<name>STOP 1</name>
+							<LookAt>
+								<longitude>-76.69968244103188</longitude>
+								<latitude>37.27181131587643</latitude>
+								<altitude>0</altitude>
+								<heading>-4.286412363063231</heading>
+								<tilt>18.72919088661522</tilt>
+								<range>347.4690148310245</range>
+								<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+							</LookAt>
+							<styleUrl>#msn_donut3</styleUrl>
+							<Point>
+								<gx:drawOrder>1</gx:drawOrder>
+								<coordinates>-76.7002766160056,37.27144411228841,0</coordinates>
+							</Point>
+						</Placemark>
+						<Placemark>
+							<name>END</name>
+							<LookAt>
+								<longitude>-76.6931236292332</longitude>
+								<latitude>37.27224401388386</latitude>
+								<altitude>0</altitude>
+								<heading>-3.806634958144042</heading>
+								<tilt>32.14436188483812</tilt>
+								<range>422.9798550949433</range>
+								<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+							</LookAt>
+							<styleUrl>#msn_donut</styleUrl>
+							<Point>
+								<gx:drawOrder>1</gx:drawOrder>
+								<coordinates>-76.69330706612531,37.27160825966617,0</coordinates>
+							</Point>
+						</Placemark>
+					</Folder>
+				</Folder>
+			</Folder>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

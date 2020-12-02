@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/piedev?useSSL=false&serverTimezone=UTC
+    username: pie
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  flyway:
+    locations: classpath:db/migration
+    baseline-on-migrate: true
+    baseline-version: 0
+  jpa:
+    hibernate:
+      use-new-id-generator-mappings: false
+  servlet:
+    multipart:
+      max-file-size: 16MB
+      max-request-size: 16MB
+
+server.compression.enabled: false
+
+UriGETSPendingOpen: {$GETS_URI_OPEN_PENDING}
+UriGETSClosed: {$GETS_URI_CLOSED}
+GETSRequestTimeFrame: {$GETS_REQUEST_TIME_FRAME_IN_DAYS}

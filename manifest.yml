@@ -1,0 +1,14 @@
+---
+applications:
+- name: pie
+  buildpacks:
+    - https://github.com/cloudfoundry/java-buildpack.git
+  memory: 1GB
+  stack: cflinuxfs3
+  instances: 1
+  path: target/magpie-0.0.1-SNAPSHOT.jar
+  environment:
+    - PIE_DB_URL=jdbc:mysql://localhost:3306/piedev?useSSL=false
+    - PIE_DB_USERNAME=pie
+  services:
+    - pie-acceptance-db

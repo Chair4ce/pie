@@ -1,0 +1,90 @@
+@import 'resources/fonts/helveticaneue/helveticaneue.css';
+
+
+body {
+  font-family: Roboto, sans-serif !important;
+  font-size: 16px;
+  font-weight: 500;
+  color: #FDFFFC;
+  overflow: hidden !important;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.no-select {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
+}
+
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.smallbord-container {
+  position: absolute;
+  left: 50%;
+  top: 1px;
+  margin-left: -90px;
+  padding-left: 20px;
+}
+
+.menu-item {
+  font-family: Roboto sans-serif !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 24px !important;
+}
+
+.menu-item:hover {
+  font-weight: 700 !important;
+  text-shadow: 0 0 2px #FFF !important;
+}
+
+.header-tooltip {
+  z-index: 10001 !important;
+}
+
+.MuiPickersCalendarHeader-iconButton {
+  background: none !important;
+}
+
+.MuiPickersCalendarHeader-iconButton:hover {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+.dismiss-snackbar {
+  background: #1C455C !important;
+}
+
+.dismiss-snackbar:hover {
+  background: rgba(30, 152, 229, 0.1) !important;
+}
+
+.dismiss-error {
+  background: #7D0B19 !important;
+}
+
+.dismiss-error:hover {
+  background: rgba(30, 152, 229, 0.1) !important;
+}
+
+.menu-item {
+  font-family: Roboto,sans-serif !important;
+}
+
+.MuiTooltip-arrow {
+  left: 146px !important;
+  color: #3C535B !important;
+}
+
+.MuiPopover-root {
+  z-index: 10001 !important;
+}

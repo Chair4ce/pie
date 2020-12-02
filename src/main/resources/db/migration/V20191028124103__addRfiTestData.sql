@@ -1,0 +1,15 @@
+insert into rfi ( priority, rfi_id, gets_status, info, customer, start, end, rfi_status, exploited_coi, tracks) values
+('1', '19-320','Open','Request 5 compounds during week of 12 OCT 19 to 17 OCT 19','AOB West','10/12/19','10/17/19','Exploitation complete track production in progress','6/6', '9/14'),
+('2', '19-322','Open','Hunt for personnel carrying heavy load','116 MIB','10/15/19','10/20/19','Exploitation complete track production in progress','4/4','4/15'),
+('3','19-316','Open','Info re northern Syrian ground force capabilities. Airborne IMINT/SIGINT collection preferred. Suspense deadline no later than 19 OCT 2019.','CJTF OIR J2T','10/9/19','10/12/19','Exploitation incomplete, track production complete','3/9','16/16'),
+('4','19-315','Open','Coverage required hostile terror elements have shown increasing force development. IMINT/SIGINT collection preferred, HUMINT acceptable. Suspense deadline no later than 20 OCT 2019.','CJTF OIR J2T','10/9/19','10/12/19','Exploitation complete, track production in progress','7/7','15/19'),
+('5','19-317','Open','Requesting information regarding western Syrian coast. Indications of hostile Turkish military attacks show development in the Al Obaidy district. Forces collecting in the eastern delta along the Qa im housing district are emassing small arms shipments and have established a transport hub containing at least 20 cargo shipping containers of yellowcake residue and biological weapons. IMINT/SIGINT collection preferred. Suspense deadline no later than 20 DEC 2019.' ,'TF9','10/10/19','10/17/19','Exploitation not started, track production not started','0/4','0/0'),
+('6','19-318','Open','Two target roll-up for air assault on remaining pop for stronghold in the west','CJTF OIR J2T','10/12/19','10/15/19','Exploitation started, track production not started','3/8','0/7'),
+('Closed','19-312','Closed',null,null,'10/1/19','10/10/19','Complete','8/8','4/4'),
+('Closed','19-313','Closed',null,null,'10/2/19','10/5/19','Complete','11/11','24/24'),
+('Closed','19-314','Closed',null,null,'10/7/19','10/12/19','Complete','8/8','10/10'),
+('Unassigned','19-319','Open','Slant for arms facility northern Baghdad','CJTF OIR J2T','10/12/19','10/14/19','Production complete, pending publish to GETS','11/11','21/21'),
+('Unassigned','19-321','Open','Focus on vehicle in/out of financial district','CJTF OIR J2T','10/14/19','10/15/19','Exploitation complete, track production in progress','8/8','19/20'),
+('Unassigned','19-323','Pending','Search for Red October 10 Russian militants on flying submarine',null,'10/16/19','10/20/19','Not prepared for exploitation','0/0','0/0'),
+('Unassigned','19-324','Pending','Operation RedBull, requires RUMINT collect over Jackoslovakian watershed',null,'10/16/19','10/24/19','Not prepared for exploitation','0/0','0/0'),
+('Unassigned','19-325','Pending',null,null,'10/16/19','10/20/19','Not prepared for exploitation','0/0','0/0');

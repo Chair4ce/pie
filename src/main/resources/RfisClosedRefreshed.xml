@@ -1,0 +1,443 @@
+<GETS_RFI_Query_Results xmlns="GETS" xmlns:getsrfi="gets" xmlns:gets="http://xmlns.jcp.org/xml/ns/javaee">
+  <RFIList>
+    <getsrfi:RequestForInformation id="DGS-1-SDT-2020-00321">
+      <getsrfi:Request id="DGS-1-SDT-2020-00321">
+        <getsrfi:requestText>hi</getsrfi:requestText>
+        <getsrfi:justification>
+          This is a justification.
+        </getsrfi:justification>
+        <gets:url>http://www.google.com</gets:url>
+        <getsrfi:primaryOrganization>DGS-1</getsrfi:primaryOrganization>
+        <gets:lastUpdate>2019-11-05T14:21:21Z</gets:lastUpdate>
+        <getsrfi:RequestingPOC>
+          <gets:unit>633d ABW</gets:unit>
+        </getsrfi:RequestingPOC>
+        <gets:ltiov>2020-11-05T14:21:21Z</gets:ltiov>
+        <gets:CountryCodeList>
+          <gets:iso1366trigraph>USA</gets:iso1366trigraph>
+        </gets:CountryCodeList>
+      </getsrfi:Request>
+      <getsrfi:ResponseList>
+        <getsrfi:Response id="DGS-1-SDT-2020-00321" orgid="DGS-1">
+          <gets:producerOrganizationID>DGS-1</gets:producerOrganizationID>
+          <getsrfi:responseStatus>NEW</getsrfi:responseStatus>
+        </getsrfi:Response>
+        <getsrfi:Response id="DGS-1-SDT-2020-00321" orgid="633 ABW">
+          <gets:producerOrganizationID>633 ABW</gets:producerOrganizationID>
+          <getsrfi:responseStatus>CLOSED</getsrfi:responseStatus>
+        </getsrfi:Response>
+      </getsrfi:ResponseList>
+    </getsrfi:RequestForInformation>
+    <getsrfi:RequestForInformation id="DGS-1-ABC-2020-00322">
+      <getsrfi:Request id="DGS-1-ABC-2020-00322">
+        <getsrfi:requestText>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id es
+          laborum.
+        </getsrfi:requestText>
+        <getsrfi:justification>
+          This is a justification.
+        </getsrfi:justification>
+        <gets:url>http://www.yahoo.com</gets:url>
+        <getsrfi:primaryOrganization>DGS-1</getsrfi:primaryOrganization>
+        <getsrfi:receiveDate>2019-11-11T14:21:22Z</getsrfi:receiveDate>
+        <getsrfi:RequestingPOC>
+          <gets:unit>633 ABW KUYGEUYGIUYGWOUY FJWUYTDAUIYGDUYFID UYBSOIUHOIUD</gets:unit>
+        </getsrfi:RequestingPOC>
+        <gets:CountryCodeList>
+          <gets:iso1366trigraph>CAN</gets:iso1366trigraph>
+        </gets:CountryCodeList>
+      </getsrfi:Request>
+      <getsrfi:ResponseList>
+        <getsrfi:Response id="DGS-1-ABC-2020-00322" orgid="DGS-1">
+          <gets:producerOrganizationID>DGS-1</gets:producerOrganizationID>
+          <getsrfi:responseStatus>NEW</getsrfi:responseStatus>
+        </getsrfi:Response>
+      </getsrfi:ResponseList>
+    </getsrfi:RequestForInformation>
+    <getsrfi:RequestForInformation id="DGS-1-SDT-2020-00323">
+      <getsrfi:Request id="DGS-1-SDT-2020-00323">
+        <getsrfi:requestText>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id es
+          laborum.
+        </getsrfi:requestText>
+        <getsrfi:justification>
+          This is a justification.
+        </getsrfi:justification>
+        <gets:url>http://www.aol.com</gets:url>
+        <getsrfi:primaryOrganization>DGS-1</getsrfi:primaryOrganization>
+        <gets:lastUpdate>2019-11-12T14:21:23Z</gets:lastUpdate>
+        <getsrfi:receiveDate>2019-09-11T14:21:22Z</getsrfi:receiveDate>
+        <getsrfi:RequestingPOC>
+          <gets:unit>633d ABW</gets:unit>
+        </getsrfi:RequestingPOC>
+        <gets:CountryCodeList>
+          <gets:iso1366trigraph>USA</gets:iso1366trigraph>
+        </gets:CountryCodeList>
+      </getsrfi:Request>
+      <getsrfi:ResponseList>
+        <getsrfi:Response id="DGS-1-SDT-2020-00323" orgid="DGS-1">
+          <gets:producerOrganizationID>DGS-1</gets:producerOrganizationID>
+          <getsrfi:responseStatus>NEW</getsrfi:responseStatus>
+        </getsrfi:Response>
+      </getsrfi:ResponseList>
+    </getsrfi:RequestForInformation>
+    <getsrfi:RequestForInformation id="DGS-1-SDT-2020-00324">
+      <getsrfi:Request id="DGS-1-SDT-2020-00324">
+        <getsrfi:requestText>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id es
+          laborum.
+        </getsrfi:requestText>
+        <getsrfi:justification>
+          This is a justification.
+        </getsrfi:justification>
+        <gets:url>http://www.msn.com</gets:url>
+        <getsrfi:primaryOrganization>DGS-1</getsrfi:primaryOrganization>
+        <gets:lastUpdate>2019-11-10T14:21:24Z</gets:lastUpdate>
+        <getsrfi:RequestingPOC>
+          <gets:unit>HQ ACC</gets:unit>
+        </getsrfi:RequestingPOC>
+        <gets:ltiov>2020-05-05T14:21:21Z</gets:ltiov>
+        <gets:CountryCodeList>
+          <gets:iso1366trigraph>MEX</gets:iso1366trigraph>
+        </gets:CountryCodeList>
+      </getsrfi:Request>
+      <getsrfi:ResponseList>
+        <getsrfi:Response id="DGS-1-SDT-2020-00324" orgid="DGS-1">
+          <gets:producerOrganizationID>DGS-1</gets:producerOrganizationID>
+          <getsrfi:responseStatus>NEW</getsrfi:responseStatus>
+        </getsrfi:Response>
+      </getsrfi:ResponseList>
+    </getsrfi:RequestForInformation>
+    <getsrfi:RequestForInformation id="DGS-1-SDT-2020-00325">
+      <getsrfi:Request id="DGS-1-SDT-2020-00325">
+        <getsrfi:requestText>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.
+        </getsrfi:requestText>
+        <getsrfi:justification>
+          This is a justification.
+        </getsrfi:justification>
+        <gets:url>http://www.ask.com</gets:url>
+        <getsrfi:primaryOrganization>DGS-1</getsrfi:primaryOrganization>
+        <gets:lastUpdate>2019-11-12T14:21:25Z</gets:lastUpdate>
+        <getsrfi:RequestingPOC>
+          <gets:unit>633d ABW</gets:unit>
+        </getsrfi:RequestingPOC>
+        <gets:ltiov>2020-11-10T14:21:21Z</gets:ltiov>
+        <gets:CountryCodeList>
+          <gets:iso1366trigraph>USA</gets:iso1366trigraph>
+        </gets:CountryCodeList>
+      </getsrfi:Request>
+      <getsrfi:ResponseList>
+        <getsrfi:Response id="DGS-1-SDT-2020-00325" orgid="DGS-1">
+          <gets:producerOrganizationID>DGS-1</gets:producerOrganizationID>
+          <getsrfi:responseStatus>CLOSED</getsrfi:responseStatus>
+        </getsrfi:Response>
+      </getsrfi:ResponseList>
+    </getsrfi:RequestForInformation>
+    <getsrfi:RequestForInformation id="DGS-1-SDT-2020-00326">
+      <getsrfi:Request id="DGS-1-SDT-2020-00326">
+        <getsrfi:requestText>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id es
+          laborum.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id es
+          laborum.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id es
+          laborum.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id es
+          laborum.
+        </getsrfi:requestText>
+        <getsrfi:justification>
+          This is a justification.
+        </getsrfi:justification>
+        <gets:url>http://www.google.com</gets:url>
+        <getsrfi:primaryOrganization>DGS-1</getsrfi:primaryOrganization>
+        <gets:lastUpdate>2019-10-16T20:21:26Z</gets:lastUpdate>
+        <getsrfi:RequestingPOC>
+          <gets:unit>1 FW</gets:unit>
+        </getsrfi:RequestingPOC>
+        <gets:ltiov>2022-11-09T14:21:21Z</gets:ltiov>
+        <gets:CountryCodeList>
+          <gets:iso1366trigraph>CAN</gets:iso1366trigraph>
+        </gets:CountryCodeList>
+      </getsrfi:Request>
+      <getsrfi:ResponseList>
+        <getsrfi:Response id="DGS-1-SDT-2020-00326" orgid="DGS-1">
+          <gets:producerOrganizationID>DGS-1</gets:producerOrganizationID>
+          <getsrfi:responseStatus>OPEN</getsrfi:responseStatus>
+        </getsrfi:Response>
+      </getsrfi:ResponseList>
+    </getsrfi:RequestForInformation>
+    <getsrfi:RequestForInformation id="DGS-1-SDT-2020-00331">
+      <getsrfi:Request id="DGS-1-SDT-2020-00331">
+        <getsrfi:requestText>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id es
+          laborum.
+        </getsrfi:requestText>
+        <getsrfi:justification>
+          This is a justification.
+        </getsrfi:justification>
+        <gets:url>http://www.google.com</gets:url>
+        <getsrfi:primaryOrganization>DGS-1</getsrfi:primaryOrganization>
+        <gets:lastUpdate>2019-11-05T14:21:21Z</gets:lastUpdate>
+        <getsrfi:RequestingPOC>
+          <gets:unit>633d ABW</gets:unit>
+        </getsrfi:RequestingPOC>
+        <gets:CountryCodeList>
+          <gets:iso1366trigraph>USA</gets:iso1366trigraph>
+        </gets:CountryCodeList>
+      </getsrfi:Request>
+      <getsrfi:ResponseList>
+        <getsrfi:Response id="DGS-1-SDT-2020-00331" orgid="DGS-1">
+          <gets:producerOrganizationID>DGS-1</gets:producerOrganizationID>
+          <getsrfi:responseStatus>NEW</getsrfi:responseStatus>
+        </getsrfi:Response>
+      </getsrfi:ResponseList>
+    </getsrfi:RequestForInformation>
+    <getsrfi:RequestForInformation id="DGS-1-SDT-2020-00332">
+      <getsrfi:Request id="DGS-1-SDT-2020-00332">
+        <getsrfi:requestText>teenage mutant ninja turtles</getsrfi:requestText>
+        <getsrfi:justification>
+          This is a justification.
+        </getsrfi:justification>
+        <gets:url>http://www.yahoo.com</gets:url>
+        <getsrfi:primaryOrganization>DGS-1</getsrfi:primaryOrganization>
+        <gets:lastUpdate>2019-11-11T14:21:22Z</gets:lastUpdate>
+        <getsrfi:RequestingPOC>
+          <gets:unit>1 FW</gets:unit>
+        </getsrfi:RequestingPOC>
+        <gets:ltiov>2020-02-04T14:21:21Z</gets:ltiov>
+        <gets:CountryCodeList>
+          <gets:iso1366trigraph>MEX</gets:iso1366trigraph>
+        </gets:CountryCodeList>
+      </getsrfi:Request>
+      <getsrfi:ResponseList>
+        <getsrfi:Response id="DGS-1-SDT-2020-00332" orgid="DGS-1">
+          <gets:producerOrganizationID>DGS-1</gets:producerOrganizationID>
+          <getsrfi:responseStatus>NEW</getsrfi:responseStatus>
+        </getsrfi:Response>
+      </getsrfi:ResponseList>
+    </getsrfi:RequestForInformation>
+    <getsrfi:RequestForInformation id="633-ABW-2020-00333">
+      <getsrfi:Request id="633-ABW-2020-00333">
+        <getsrfi:requestText>might morphin power rangers</getsrfi:requestText>
+        <getsrfi:justification>
+          This is a justification.
+        </getsrfi:justification>
+        <gets:url>http://www.aol.com</gets:url>
+        <getsrfi:primaryOrganization>DGS-1</getsrfi:primaryOrganization>
+        <gets:lastUpdate>2019-11-12T14:21:23Z</gets:lastUpdate>
+        <getsrfi:RequestingPOC>
+          <gets:unit>633d ABW</gets:unit>
+        </getsrfi:RequestingPOC>
+        <gets:CountryCodeList>
+          <gets:iso1366trigraph>CAN</gets:iso1366trigraph>
+        </gets:CountryCodeList>
+      </getsrfi:Request>
+      <getsrfi:ResponseList>
+        <getsrfi:Response id="633-ABW-2020-00333" orgid="DGS-1">
+          <gets:producerOrganizationID>DGS-1</gets:producerOrganizationID>
+          <getsrfi:responseStatus>NEW</getsrfi:responseStatus>
+        </getsrfi:Response>
+      </getsrfi:ResponseList>
+    </getsrfi:RequestForInformation>
+    <getsrfi:RequestForInformation id="DGS-1-SDT-2020-00334">
+      <getsrfi:Request id="DGS-1-SDT-2020-00334">
+        <getsrfi:requestText>nibh tortor id aliquet lectus proin nibh nisl condimentum id venenatis a condimentum vitae
+          sapien pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas sed tempus
+          urna et pharetra pharetra massa massa ultricies mi quis hendrerit dolor magna eget est lorem ipsum dolor sit
+          amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+          turpis egestas integer eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit turpis
+          cursus in hac habitasse platea dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc congue
+          nisi vitae suscipit tellus mauris a diam maecenas sed enim ut sem viverra aliquet eget sit amet tellus cras
+          adipiscing enim eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum lectus mauris ultrices
+          eros in cursus turpis massa tincidunt dui ut ornare lectus sit amet est placerat in egestas erat imperdiet sed
+          euismod nisi porta lorem mollis aliquam ut porttitor leo a diam sollicitudin tempor id eu nisl nunc mi ipsum
+          faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget felis eget nunc lobortis mattis aliquam
+          faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra suspendisse
+          potenti nullam ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus in hac
+          habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt
+          lobortis feugiat vivamus at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien
+          faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt
+          ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut
+          lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet
+          bibendum enim facilisis gravida neque convallis a cras semper auctor neque vitae tempus quam pellentesque nec
+          nam aliquam sem et tortor consequat id porta nibh venenatis cras sed felis eget velit aliquet sagittis id
+          consectetur purus ut faucibus pulvinar elementum integer enim neque volutpat ac tincidunt vitae semper quis
+          lectus nulla at volutpat diam ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin
+          fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus
+          nisl tincidunt eget nullam non nisi est sit amet facilisis magna etiam tempor orci eu lobortis elementum nibh
+          tellus molestie nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae et leo
+          duis ut diam quam nulla porttitor massa id neque aliquam vestibulum morbi blandit cursus risus at ultrices mi
+          tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus et magnis dis
+          parturient montes nascetur ridiculus mus mauris vitae ultricies leo integer malesuada nunc vel risus commodo
+          viverra maecenas accumsan lacus vel facilisis volutpat est velit egestas dui id ornare arcu odio ut sem nulla
+          pharetra diam sit amet nisl suscipit adipiscing bibendum est ultricies integer quis auctor elit sed vulputate
+          mi sit amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada
+          proin libero nunc consequat interdum varius sit amet mattis vulputate enim nulla aliquet porttitor lacus
+          luctus accumsan tortor posuere ac ut consequat semper viverra nam libero justo laoreet sit amet cursus sit
+          amet dictum sit amet justo donec enim diam vulputate ut pharetra sit amet aliquam id diam maecenas ultricies
+          mi eget mauris pharetra et ultrices neque ornare aenean euismod elementum nisi quis eleifend quam adipiscing
+          vitae proin sagittis nisl rhoncus mattis rhoncus urna neque viverra justo nec ultrices dui sapien eget mi
+          proin sed libero enim sed faucibus turpis in eu mi bibendum neque egestas congue quisque egestas diam in arcu
+          cursus euismod quis viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat sed cras ornare arcu
+          dui vivamus arcu felis bibendum ut tristique et egestas quis ipsum suspendisse ultrices gravida dictum fusce
+          ut placerat orci nulla pellentesque dignissim enim sit amet venenatis urna cursus eget nunc scelerisque
+          viverra mauris in aliquam sem fringilla ut morbi tincidunt augue interdum velit euismod in pellentesque massa
+          placerat duis ultricies lacus sed turpis tincidunt id aliquet risus feugiat in ante metus dictum at tempor
+          commodo ullamcorper a lacus vestibulum sed arcu non odio euismod lacinia at quis risus sed vulputate odio ut
+          enim blandit volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum non consectetur
+          a erat nam at lectus urna duis convallis convallis tellus id interdum velit laoreet id donec ultrices
+          tincidunt arcu non sodales neque sodales ut etiam sit amet nisl purus in mollis nunc sed id semper risus in
+          hendrerit gravida rutrum quisque non tellus orci ac auctor augue mauris augue neque gravida in fermentum et
+          sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla
+          facilisi cras fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus quam id leo in
+          vitae turpis massa sed elementum tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse in
+          est ante in nibh mauris cursus mattis molestie a iaculis at erat pellentesque adipiscing commodo elit at
+          imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet non
+          curabitur gravida arcu ac tortor dignissim convallis aenean et tortor at risus viverra adipiscing at in tellus
+          integer feugiat scelerisque varius morbi enim nunc faucibus a pellentesque sit amet porttitor eget dolor morbi
+          non arcu risus quis varius quam quisque id diam vel quam elementum pulvinar etiam non quam lacus suspendisse
+          faucibus interdum posuere lorem ipsum dolor sit amet consectetur adipiscing elit duis tristique sollicitudin
+          nibh sit amet commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris rhoncus aenean
+          vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et
+          malesuada fames ac turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu
+          facilisis sed odio morbi quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec
+          feugiat in fermentum posuere urna nec tincidunt praesent semper
+        </getsrfi:requestText>
+        <getsrfi:justification>
+          This is a justification.
+        </getsrfi:justification>
+        <gets:url>http://www.msn.com</gets:url>
+        <getsrfi:primaryOrganization>DGS-1</getsrfi:primaryOrganization>
+        <gets:lastUpdate>2019-11-10T14:21:24Z</gets:lastUpdate>
+        <getsrfi:RequestingPOC>
+          <gets:unit>633d ABW</gets:unit>
+        </getsrfi:RequestingPOC>
+        <gets:CountryCodeList>
+          <gets:iso1366trigraph>USA</gets:iso1366trigraph>
+        </gets:CountryCodeList>
+      </getsrfi:Request>
+      <getsrfi:ResponseList>
+        <getsrfi:Response id="DGS-1-SDT-2020-00334" orgid="633 ABW">
+          <gets:producerOrganizationID>633 ABW</gets:producerOrganizationID>
+          <getsrfi:responseStatus>CLOSED</getsrfi:responseStatus>
+        </getsrfi:Response>
+        <getsrfi:Response id="DGS-1-SDT-2020-00334" orgid="DGS-1">
+          <gets:producerOrganizationID>DGS-1</gets:producerOrganizationID>
+          <getsrfi:responseStatus>NEW</getsrfi:responseStatus>
+        </getsrfi:Response>
+      </getsrfi:ResponseList>
+    </getsrfi:RequestForInformation>
+    <getsrfi:RequestForInformation id="DGS-1-SDT-2020-00335">
+      <getsrfi:Request id="DGS-1-SDT-2020-00335">
+        <getsrfi:requestText>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id es
+          laborum.
+        </getsrfi:requestText>
+        <getsrfi:justification>
+          This is a justification.
+        </getsrfi:justification>
+        <gets:url>http://www.ask.com</gets:url>
+        <getsrfi:primaryOrganization>DGS-1</getsrfi:primaryOrganization>
+        <gets:lastUpdate>2019-11-12T14:21:25Z</gets:lastUpdate>
+        <getsrfi:RequestingPOC>
+          <gets:unit>633d ABW</gets:unit>
+        </getsrfi:RequestingPOC>
+        <gets:CountryCodeList>
+          <gets:iso1366trigraph>MEX</gets:iso1366trigraph>
+        </gets:CountryCodeList>
+        <gets:ltiov>2019-11-30T14:21:21Z</gets:ltiov>
+      </getsrfi:Request>
+      <getsrfi:ResponseList>
+        <getsrfi:Response id="DGS-1-SDT-2020-00335" orgid="DGS-1">
+          <gets:producerOrganizationID>DGS-1</gets:producerOrganizationID>
+          <getsrfi:responseStatus>OPEN</getsrfi:responseStatus>
+        </getsrfi:Response>
+      </getsrfi:ResponseList>
+    </getsrfi:RequestForInformation>
+    <getsrfi:RequestForInformation id="DGS-1-SDT-2020-00336">
+      <getsrfi:Request id="DGS-1-SDT-2020-00336">
+        <getsrfi:requestText>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id es
+          laborum.
+        </getsrfi:requestText>
+        <getsrfi:justification>
+          This is a justification.
+        </getsrfi:justification>
+        <gets:url>http://www.google.com</gets:url>
+        <getsrfi:primaryOrganization>DGS-1</getsrfi:primaryOrganization>
+        <gets:lastUpdate>2019-10-16T20:21:26Z</gets:lastUpdate>
+        <getsrfi:RequestingPOC>
+          <gets:unit>1 FW</gets:unit>
+        </getsrfi:RequestingPOC>
+        <gets:CountryCodeList>
+          <gets:iso1366trigraph>CAN</gets:iso1366trigraph>
+        </gets:CountryCodeList>
+      </getsrfi:Request>
+      <getsrfi:ResponseList>
+        <getsrfi:Response id="DGS-1-SDT-2020-00336" orgid="DGS-1">
+          <gets:producerOrganizationID>DGS-1</gets:producerOrganizationID>
+          <getsrfi:responseStatus>OPEN</getsrfi:responseStatus>
+        </getsrfi:Response>
+      </getsrfi:ResponseList>
+    </getsrfi:RequestForInformation>
+    <getsrfi:RequestForInformation id="DGS-1-SDT-2020-00338">
+      <getsrfi:Request id="DGS-1-SDT-2020-00338">
+        <getsrfi:requestText>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequa
+        </getsrfi:requestText>
+        <getsrfi:justification>
+          This is a justification.
+        </getsrfi:justification>
+        <gets:url>http://www.google.com</gets:url>
+        <getsrfi:primaryOrganization>DGS-1</getsrfi:primaryOrganization>
+        <gets:lastUpdate>2019-10-16T20:21:26Z</gets:lastUpdate>
+        <getsrfi:RequestingPOC>
+          <gets:unit>1 FW</gets:unit>
+        </getsrfi:RequestingPOC>
+        <gets:CountryCodeList>
+          <gets:iso1366trigraph>CAN</gets:iso1366trigraph>
+        </gets:CountryCodeList>
+      </getsrfi:Request>
+      <getsrfi:ResponseList>
+        <getsrfi:Response id="DGS-1-SDT-2020-00338" orgid="DGS-1">
+          <gets:producerOrganizationID>DGS-1</gets:producerOrganizationID>
+          <getsrfi:responseStatus>OPEN</getsrfi:responseStatus>
+        </getsrfi:Response>
+      </getsrfi:ResponseList>
+    </getsrfi:RequestForInformation>
+  </RFIList>
+</GETS_RFI_Query_Results>

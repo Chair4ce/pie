@@ -1,0 +1,370 @@
+2020-07-17 10:32:11,013 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application v0.0.1-SNAPSHOT on Ridleys-iMac.local with PID 14069 (/Users/ridley/workspace/pie/target/magpie-0.0.1-SNAPSHOT.jar started by ridley in /Users/ridley/workspace/pie/client)
+2020-07-17 10:32:11,016 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+2020-07-17 10:32:11,017 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: test
+2020-07-17 10:32:11,571 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-07-17 10:32:11,699 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 123ms. Found 37 repository interfaces.
+2020-07-17 10:32:12,032 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a8f93d5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 10:32:12,412 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (http)
+2020-07-17 10:32:12,428 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9090"]
+2020-07-17 10:32:12,441 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-07-17 10:32:12,441 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.14]
+2020-07-17 10:32:12,450 INFO org.apache.juli.logging.DirectJDKLog [main] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ridley/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-07-17 10:32:12,510 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-07-17 10:32:12,511 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1459 ms
+2020-07-17 10:32:12,650 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-07-17 10:32:12,789 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-07-17 10:32:12,845 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-07-17 10:32:12,900 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.7.Final}
+2020-07-17 10:32:12,901 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2020-07-17 10:32:13,026 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-07-17 10:32:13,254 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-07-17 10:32:14,038 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@1e63d216'
+2020-07-17 10:32:14,041 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-17 10:32:14,269 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2020-07-17 10:32:15,228 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-17 10:32:15,276 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-17 10:32:15,368 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2020-07-17 10:32:15,445 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2020-07-17 10:32:15,496 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9090"]
+2020-07-17 10:32:15,524 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9090 (http) with context path ''
+2020-07-17 10:32:15,526 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 4.93 seconds (JVM running for 5.269)
+2020-07-17 10:32:16,387 INFO org.apache.juli.logging.DirectJDKLog [http-nio-9090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-17 10:32:16,387 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9090-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-17 10:32:16,395 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9090-exec-1] Completed initialization in 8 ms
+2020-07-17 10:32:20,498 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Fetching from GETS
+2020-07-17 10:32:20,500 TRACE dgs1sdt.magpie.rfis.GetsClient [scheduling-1] Fetching from: RfisNewOpen.xml
+2020-07-17 10:32:20,587 TRACE dgs1sdt.magpie.rfis.GetsClient [scheduling-1] Fetching from: RfisClosed.xml
+2020-07-17 10:32:20,682 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-7] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 10:32:20,685 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-7] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 10:32:20,687 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-7] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 10:32:23,603 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-1] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 10:32:23,604 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-1] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 10:32:23,606 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-1] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 10:32:25,533 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-6] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 10:32:25,535 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-6] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 10:32:25,537 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-6] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 10:32:27,018 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-10] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 10:32:27,019 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-10] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 10:32:27,020 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-10] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 10:32:29,784 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-8] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 10:32:29,785 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-8] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 10:32:29,787 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-8] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 10:32:31,578 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-9] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 10:32:31,579 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-9] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 10:32:31,580 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-9] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 10:32:33,077 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-3] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 10:32:33,078 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-3] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 10:32:33,079 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-3] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 10:32:35,034 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-5] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 10:32:35,034 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-5] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 10:32:35,035 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-5] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 10:32:37,376 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-2] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 10:32:37,378 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-2] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 10:32:37,379 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-2] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 10:32:43,944 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-5] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 10:32:43,946 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-5] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 10:32:43,947 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-5] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 10:32:47,096 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-6] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 10:32:47,097 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-6] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 10:32:47,098 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-6] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 10:32:49,132 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-6] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 10:32:49,132 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-6] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 10:32:49,133 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-6] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 10:32:51,686 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-5] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 10:32:51,687 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-5] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 10:32:51,687 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-5] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 10:32:57,558 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-10] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 10:32:57,558 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-10] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 10:32:57,559 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-10] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 10:33:01,780 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-1] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 10:33:01,780 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-1] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 10:33:01,781 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-1] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 10:33:05,439 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-3] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 10:33:05,441 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-3] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 10:33:05,442 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-3] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 10:33:10,457 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-6] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 10:33:10,457 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-6] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 10:33:10,458 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-6] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 10:33:15,220 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-2] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 10:33:15,221 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-2] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 10:33:15,221 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-2] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 10:33:20,702 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Fetching from GETS
+2020-07-17 10:33:20,703 TRACE dgs1sdt.magpie.rfis.GetsClient [scheduling-1] Fetching from: RfisNewOpen.xml
+2020-07-17 10:33:20,709 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00321
+2020-07-17 10:33:20,710 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-ABC-2020-00322
+2020-07-17 10:33:20,711 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00323
+2020-07-17 10:33:20,712 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00324
+2020-07-17 10:33:20,713 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00325
+2020-07-17 10:33:20,713 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00326
+2020-07-17 10:33:20,714 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00331
+2020-07-17 10:33:20,715 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00332
+2020-07-17 10:33:20,715 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: 633-ABW-2020-00333
+2020-07-17 10:33:20,716 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00334
+2020-07-17 10:33:20,717 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00335
+2020-07-17 10:33:20,717 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00336
+2020-07-17 10:33:20,718 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00338
+2020-07-17 10:33:20,719 TRACE dgs1sdt.magpie.rfis.GetsClient [scheduling-1] Fetching from: RfisClosed.xml
+2020-07-17 10:33:20,722 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00327
+2020-07-17 10:33:20,723 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00328
+2020-07-17 10:33:20,724 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00329
+2020-07-17 10:33:20,725 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00330
+2020-07-17 10:33:25,075 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-9] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 10:33:25,076 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-9] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 10:33:25,077 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-9] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 10:33:29,089 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-1] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 10:33:29,090 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-1] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 10:33:29,090 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-1] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 10:33:34,924 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-4] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 10:33:34,925 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-4] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 10:33:34,925 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-4] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 10:33:39,219 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-4] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 10:33:39,220 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-4] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 10:33:39,220 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-4] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 10:33:40,909 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-1] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 10:33:40,910 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-1] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 10:33:40,910 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-1] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 10:33:48,566 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-10] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 10:33:48,566 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-10] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 10:33:48,567 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-10] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 10:33:52,124 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-3] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 10:33:52,128 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-3] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 10:33:52,129 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-3] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 10:34:00,311 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-4] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 10:34:00,311 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-4] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 10:34:00,312 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-4] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 10:34:04,524 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-8] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 10:34:04,525 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-8] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 10:34:04,526 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-8] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 10:34:09,936 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-6] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 10:34:09,937 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-6] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 10:34:09,937 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-6] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 10:34:14,126 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-5] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 10:34:14,126 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-5] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 10:34:14,127 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-5] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 10:34:20,733 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Fetching from GETS
+2020-07-17 10:34:20,734 TRACE dgs1sdt.magpie.rfis.GetsClient [scheduling-1] Fetching from: RfisNewOpen.xml
+2020-07-17 10:34:20,739 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00321
+2020-07-17 10:34:20,739 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-ABC-2020-00322
+2020-07-17 10:34:20,740 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00323
+2020-07-17 10:34:20,741 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00324
+2020-07-17 10:34:20,741 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00325
+2020-07-17 10:34:20,742 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00326
+2020-07-17 10:34:20,743 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00331
+2020-07-17 10:34:20,743 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00332
+2020-07-17 10:34:20,744 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: 633-ABW-2020-00333
+2020-07-17 10:34:20,744 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00334
+2020-07-17 10:34:20,745 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00335
+2020-07-17 10:34:20,745 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00336
+2020-07-17 10:34:20,746 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00338
+2020-07-17 10:34:20,747 TRACE dgs1sdt.magpie.rfis.GetsClient [scheduling-1] Fetching from: RfisClosed.xml
+2020-07-17 10:34:20,750 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00327
+2020-07-17 10:34:20,751 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00328
+2020-07-17 10:34:20,752 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00329
+2020-07-17 10:34:20,753 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00330
+2020-07-17 10:34:22,487 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-4] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 10:34:22,487 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-4] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 10:34:22,488 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-4] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 10:34:30,171 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-3] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 10:34:30,172 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-3] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 10:34:30,172 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-3] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 10:34:34,592 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-3] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 10:34:34,593 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-3] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 10:34:34,593 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-3] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 10:34:44,195 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-9] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 10:34:44,200 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-9] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 10:34:44,201 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-9] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 10:34:46,037 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-6] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 10:34:46,038 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-6] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 10:34:46,041 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-6] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 10:34:47,750 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-7] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 10:34:47,752 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-7] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 10:34:47,756 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-7] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 10:34:49,467 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-5] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 10:34:49,467 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-5] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 10:34:49,470 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-5] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 11:09:14,683 INFO org.springframework.boot.StartupInfoLogger [main] Starting Application v0.0.1-SNAPSHOT on Ridleys-iMac.local with PID 15679 (/Users/ridley/workspace/pie/target/magpie-0.0.1-SNAPSHOT.jar started by ridley in /Users/ridley/workspace/pie/client)
+2020-07-17 11:09:14,686 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+2020-07-17 11:09:14,687 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: test
+2020-07-17 11:09:15,239 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-07-17 11:09:15,360 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 115ms. Found 37 repository interfaces.
+2020-07-17 11:09:15,692 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$da3a6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 11:09:16,070 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (http)
+2020-07-17 11:09:16,087 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9090"]
+2020-07-17 11:09:16,100 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-07-17 11:09:16,100 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.14]
+2020-07-17 11:09:16,110 INFO org.apache.juli.logging.DirectJDKLog [main] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ridley/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-07-17 11:09:16,170 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-07-17 11:09:16,171 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1446 ms
+2020-07-17 11:09:16,309 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-07-17 11:09:16,435 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-07-17 11:09:16,492 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-07-17 11:09:16,543 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.7.Final}
+2020-07-17 11:09:16,545 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2020-07-17 11:09:16,668 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-07-17 11:09:16,892 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-07-17 11:09:17,639 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@21ab988f'
+2020-07-17 11:09:17,641 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-17 11:09:17,897 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2020-07-17 11:09:18,813 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-17 11:09:18,859 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-17 11:09:18,938 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2020-07-17 11:09:19,002 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2020-07-17 11:09:19,046 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9090"]
+2020-07-17 11:09:19,077 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9090 (http) with context path ''
+2020-07-17 11:09:19,079 INFO org.springframework.boot.StartupInfoLogger [main] Started Application in 4.888 seconds (JVM running for 5.218)
+2020-07-17 11:09:19,998 INFO org.apache.juli.logging.DirectJDKLog [http-nio-9090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-17 11:09:19,998 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9090-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-17 11:09:20,006 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9090-exec-1] Completed initialization in 8 ms
+2020-07-17 11:09:22,023 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-7] Close date not found for RFI ABC-123
+2020-07-17 11:09:24,047 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Fetching from GETS
+2020-07-17 11:09:24,050 TRACE dgs1sdt.magpie.rfis.GetsClient [scheduling-1] Fetching from: RfisNewOpen.xml
+2020-07-17 11:09:24,108 TRACE dgs1sdt.magpie.rfis.GetsClient [scheduling-1] Fetching from: RfisClosed.xml
+2020-07-17 11:09:24,944 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-1] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 11:09:24,947 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-1] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 11:09:24,948 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-1] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 11:09:26,855 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-6] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 11:09:26,856 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-6] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 11:09:26,858 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-6] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 11:09:28,358 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-8] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 11:09:28,360 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-8] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 11:09:28,361 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-8] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 11:09:31,125 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-10] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 11:09:31,127 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-10] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 11:09:31,128 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-10] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 11:09:32,910 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-8] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 11:09:32,911 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-8] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 11:09:32,912 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-8] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 11:09:34,421 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-9] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 11:09:34,422 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-9] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 11:09:34,423 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-9] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 11:09:36,397 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-3] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 11:09:36,398 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-3] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 11:09:36,399 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-3] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 11:09:38,713 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-1] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 11:09:38,714 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-1] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 11:09:38,715 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-1] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 11:09:45,288 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-4] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 11:09:45,289 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-4] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 11:09:45,290 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-4] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 11:09:48,444 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-5] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 11:09:48,445 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-5] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 11:09:48,446 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-5] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 11:09:50,675 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-3] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 11:09:50,676 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-3] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 11:09:50,676 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-3] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 11:09:53,239 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-8] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 11:09:53,240 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-8] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 11:09:53,240 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-8] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 11:09:59,100 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-3] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 11:09:59,101 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-3] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 11:09:59,102 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-3] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 11:10:03,104 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-6] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 11:10:03,104 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-6] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 11:10:03,105 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-6] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 11:10:06,742 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-2] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 11:10:06,744 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-2] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 11:10:06,744 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-2] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 11:10:11,774 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-4] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 11:10:11,774 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-4] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 11:10:11,775 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-4] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 11:10:16,535 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-10] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 11:10:16,535 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-10] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 11:10:16,536 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-10] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 11:10:24,186 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Fetching from GETS
+2020-07-17 11:10:24,187 TRACE dgs1sdt.magpie.rfis.GetsClient [scheduling-1] Fetching from: RfisNewOpen.xml
+2020-07-17 11:10:24,194 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00321
+2020-07-17 11:10:24,195 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-ABC-2020-00322
+2020-07-17 11:10:24,196 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00323
+2020-07-17 11:10:24,197 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00324
+2020-07-17 11:10:24,198 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00325
+2020-07-17 11:10:24,199 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00326
+2020-07-17 11:10:24,201 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00331
+2020-07-17 11:10:24,202 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00332
+2020-07-17 11:10:24,203 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: 633-ABW-2020-00333
+2020-07-17 11:10:24,204 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00334
+2020-07-17 11:10:24,205 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00335
+2020-07-17 11:10:24,205 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00336
+2020-07-17 11:10:24,206 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00338
+2020-07-17 11:10:24,208 TRACE dgs1sdt.magpie.rfis.GetsClient [scheduling-1] Fetching from: RfisClosed.xml
+2020-07-17 11:10:24,211 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00327
+2020-07-17 11:10:24,213 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00328
+2020-07-17 11:10:24,214 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00329
+2020-07-17 11:10:24,215 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00330
+2020-07-17 11:10:26,360 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-2] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 11:10:26,361 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-2] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 11:10:26,362 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-2] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 11:10:30,398 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-6] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 11:10:30,398 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-6] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 11:10:30,399 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-6] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 11:10:35,205 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-4] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 11:10:35,206 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-4] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 11:10:35,206 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-4] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 11:10:39,070 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-4] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 11:10:39,073 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-4] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 11:10:39,074 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-4] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 11:10:40,737 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-6] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 11:10:40,739 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-6] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 11:10:40,740 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-6] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 11:10:48,362 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-1] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 11:10:48,366 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-1] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 11:10:48,367 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-1] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 11:10:51,912 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-7] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 11:10:51,917 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-7] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 11:10:51,919 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-7] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 11:11:00,084 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-9] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 11:11:00,084 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-9] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 11:11:00,085 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-9] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 11:11:04,279 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-1] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 11:11:04,282 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-1] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 11:11:04,285 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-1] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 11:11:09,816 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-8] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 11:11:09,817 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-8] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 11:11:09,817 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-8] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 11:11:14,463 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-2] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 11:11:14,467 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-2] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 11:11:14,468 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-2] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 11:11:22,781 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-7] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 11:11:22,782 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-7] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 11:11:22,785 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-7] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 11:11:24,224 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Fetching from GETS
+2020-07-17 11:11:24,224 TRACE dgs1sdt.magpie.rfis.GetsClient [scheduling-1] Fetching from: RfisNewOpen.xml
+2020-07-17 11:11:24,229 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00321
+2020-07-17 11:11:24,230 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-ABC-2020-00322
+2020-07-17 11:11:24,230 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00323
+2020-07-17 11:11:24,231 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00324
+2020-07-17 11:11:24,231 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00325
+2020-07-17 11:11:24,232 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00326
+2020-07-17 11:11:24,232 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00331
+2020-07-17 11:11:24,233 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00332
+2020-07-17 11:11:24,233 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: 633-ABW-2020-00333
+2020-07-17 11:11:24,234 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00334
+2020-07-17 11:11:24,234 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00335
+2020-07-17 11:11:24,235 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00336
+2020-07-17 11:11:24,235 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00338
+2020-07-17 11:11:24,236 TRACE dgs1sdt.magpie.rfis.GetsClient [scheduling-1] Fetching from: RfisClosed.xml
+2020-07-17 11:11:24,238 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00327
+2020-07-17 11:11:24,239 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00328
+2020-07-17 11:11:24,239 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00329
+2020-07-17 11:11:24,240 TRACE dgs1sdt.magpie.rfis.RfiService [scheduling-1] Received previously found RFI: DGS-1-SDT-2020-00330
+2020-07-17 11:11:30,475 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-5] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 11:11:30,476 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-5] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 11:11:30,477 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-5] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 11:11:34,892 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-3] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 11:11:34,893 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-3] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 11:11:34,894 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-3] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 11:11:44,493 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-10] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 11:11:44,497 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-10] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 11:11:44,498 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-10] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 11:11:46,289 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-5] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 11:11:46,290 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-5] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 11:11:46,294 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-5] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 11:11:47,996 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-9] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 11:11:48,000 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-9] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 11:11:48,002 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-9] Close date not found for RFI DGS-1-SDT-2020-00329
+2020-07-17 11:11:49,723 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-1] Close date not found for RFI DGS-1-SDT-2020-00327
+2020-07-17 11:11:49,726 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-1] Close date not found for RFI DGS-1-SDT-2020-00328
+2020-07-17 11:11:49,726 TRACE dgs1sdt.magpie.metrics.MetricsService [http-nio-9090-exec-1] Close date not found for RFI DGS-1-SDT-2020-00329

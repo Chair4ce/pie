@@ -1,0 +1,28 @@
+{
+  "tests": "./tests/**/*.test.ts",
+  "timeout": 10000,
+  "output": "./output",
+  "helpers": {
+    "Puppeteer": {
+      "url": "http://localhost:9090",
+      "show": false,
+      "openDevTools": false,
+      "restart": false,
+      "alwaysOnTop": false,
+      "windowSize": "1920x1080px",
+      "waitForNavigation": "networkidle0",
+      "switches": {
+        "ignore-certificate-errors": true
+      },
+      "waitForTimeout": "4000"
+    }
+  },
+  "include": {
+    "I": "./steps_file.ts"
+  },
+  "bootstrap": false,
+  "mocha": {
+    "bail": true
+  },
+  "name": "pie"
+}
